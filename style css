@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#e8d5ff,#d8c2ff,#f3e8ff);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow-x:hidden;
+    position:relative;
+    padding:40px 20px;
+}
+
+/* Floating Hearts Background */
+
+#background-animation{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    z-index:0;
+}
+
+/* Love Letter */
+
+.letter-card{
+    position:relative;
+    z-index:2;
+    background:rgba(255,255,255,0.92);
+    width:90%;
+    max-width:760px;
+    padding:50px;
+    border-radius:30px;
+    box-shadow:0 15px 45px rgba(120,60,180,.25);
+    animation:fadeIn 2s ease;
+}
+
+h1{
+    font-family:'Great Vibes',cursive;
+    text-align:center;
+    color:#8b4fd9;
+    font-size:55px;
+    margin-bottom:30px;
+}
+
+.letter-text p{
+    font-size:18px;
+    line-height:2;
+    color:#555;
+    margin-bottom:20px;
+}
+
+.signature{
+    text-align:center;
+    margin-top:40px;
+    font-family:'Great Vibes',cursive;
+    color:#8b4fd9;
+    font-size:38px;
+}
+
+/* Roses */
+
+.rose{
+    position:absolute;
+    font-size:45px;
+}
+
+.top-left{
+    top:15px;
+    left:15px;
+}
+
+.top-right{
+    top:15px;
+    right:15px;
+}
+
+.bottom-left{
+    bottom:15px;
+    left:15px;
+}
+
+.bottom-right{
+    bottom:15px;
+    right:15px;
+}
+
+/* Fade Animation */
+
+@keyframes fadeIn{
+
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+    .letter-card{
+        padding:30px;
+    }
+
+    h1{
+        font-size:42px;
+    }
+
+    .letter-text p{
+        font-size:16px;
+    }
+
+    .signature{
+        font-size:30px;
+    }
+
+    .rose{
+        font-size:35px;
+    }
+
+}
