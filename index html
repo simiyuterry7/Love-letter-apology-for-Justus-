@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💜 Para El Amor de Mi Vida 💜</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Floating Hearts and Stars -->
+    <div id="background-animation"></div>
+
+    <!-- Love Letter -->
+    <main class="letter-card">
+
+        <span class="rose top-left">🌹</span>
+        <span class="rose top-right">🌹</span>
+        <span class="rose bottom-left">🌹</span>
+        <span class="rose bottom-right">🌹</span>
+
+        <h1>💜 Para Mi Amor 💜</h1>
+
+        <div class="letter-text">
+
+            <p><strong>Mi amor, mi vida, mi corazóncito... ❤️</strong></p>
+
+            <p>
+                Espero que esta carta llegue hasta tu corazón, porque cada palabra está escrita con todo mi amor y con toda la sinceridad que llevo dentro.
+            </p>
+
+            <p>
+                Quiero comenzar pidiéndote perdón por lo que te dije anoche. Lo siento de verdad. Nunca quise herirte y me duele saber que mis palabras pudieron hacerte sentir mal. No fue eso lo que mi corazón quería decir.
+            </p>
+
+            <p>
+                Quiero que sepas que te creo cuando me dices que quieres pasar el resto de tu vida conmigo. Confío en tus palabras y las guardo como uno de los regalos más bonitos que me has dado.
+            </p>
+
+            <p>
+                Gracias por ser tan paciente conmigo, por comprenderme incluso cuando me equivoco y por seguir amándome con tanta ternura. Eres un hombre maravilloso y nunca dejaré de agradecer a Dios por haberte puesto en mi camino.
+            </p>
+
+            <p>
+                Te amo muchísimo, mi cielo. Más de lo que cualquier carta podría expresar. Eres mi tranquilidad, mi felicidad y mi lugar seguro.
+            </p>
+
+            <p>
+                Perdóname por mis errores. Prometo seguir aprendiendo, mejorar cada día y cuidar este amor tan hermoso que estamos construyendo juntos.
+            </p>
+
+            <p>
+                Nunca olvides cuánto significas para mí. Siempre creeré en nosotros, en nuestros sueños y en el futuro tan bonito que deseo compartir contigo.
+            </p>
+
+            <p class="signature">
+                Con todo mi amor ❤️<br>
+                Para siempre,<br>
+                Tu niña 💜
+            </p>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
